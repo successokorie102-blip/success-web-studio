@@ -566,3 +566,14 @@ nav {
 section {
     scroll-margin-top: 80px;
   }
+body {
+    font-size: 17px;
+}
+
+section {
+    font-size: 17px;
+}
+
+nav a {
+    font-size: 15px;
+}
