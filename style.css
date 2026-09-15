@@ -602,3 +602,11 @@ nav a {
     transform: translateY(-4px);
     box-shadow: 0 8px 18px rgba(0, 0, 0, 0.2);
 }
+nav a {
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #4f7cff;
+    transform: translateY(-2px);
+}
