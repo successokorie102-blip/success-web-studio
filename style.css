@@ -635,3 +635,12 @@ nav a:hover {
 .project-card:hover h3 {
     color: #4f7cff;
 }
+.featured,
+.demo {
+    transition: 0.3s;
+}
+
+.project-card:hover .featured,
+.project-card:hover .demo {
+    transform: scale(1.05);
+}
