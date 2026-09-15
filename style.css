@@ -627,3 +627,11 @@ nav a:hover {
 .project-card:hover {
     border-color: #4f7cff;
 }
+.project-card h3 {
+    color: #172033;
+    transition: 0.3s;
+}
+
+.project-card:hover h3 {
+    color: #4f7cff;
+}
