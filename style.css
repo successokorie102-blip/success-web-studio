@@ -701,3 +701,18 @@ nav a:hover {
 #work .project-card .button {
     margin-top: 10px;
 }
+#work .project-card {
+    position: relative;
+    overflow: hidden;
+}
+
+#work .project-card::before {
+    content: "";
+    display: block;
+    height: 4px;
+    background: #4f7cff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
