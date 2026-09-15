@@ -933,3 +933,11 @@ header .button:hover {
     box-shadow: 0 8px 20px rgba(79, 124, 255, 0.35);
     transform: translateY(-4px) scale(1.03);
 }
+footer {
+    border-top: 3px solid #4f7cff;
+}
+
+footer p:first-child {
+    font-weight: bold;
+    letter-spacing: 1px;
+}
