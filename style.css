@@ -941,3 +941,10 @@ footer p:first-child {
     font-weight: bold;
     letter-spacing: 1px;
 }
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    transition: 0.4s ease;
+}
