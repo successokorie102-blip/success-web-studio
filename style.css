@@ -651,3 +651,10 @@ nav a:hover {
 .project-card .button:hover {
     transform: translateY(-3px) scale(1.03);
 }
+.project-card {
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 15px;
+    background: white;
+}
