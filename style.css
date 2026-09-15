@@ -644,3 +644,10 @@ nav a:hover {
 .project-card:hover .demo {
     transform: scale(1.05);
 }
+.project-card .button {
+    transition: 0.3s;
+}
+
+.project-card .button:hover {
+    transform: translateY(-3px) scale(1.03);
+}
