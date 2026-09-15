@@ -716,3 +716,12 @@ nav a:hover {
     left: 0;
     right: 0;
 }
+#work .project-card::before {
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: 0.3s;
+}
+
+#work .project-card:hover::before {
+    transform: scaleX(1);
+}
