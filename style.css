@@ -861,3 +861,22 @@ nav a:hover {
     transform: translateY(-8px);
     box-shadow: 0 12px 25px rgba(0, 0, 0, 0.12);
 }
+nav a {
+    position: relative;
+}
+
+nav a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    width: 100%;
+    height: 2px;
+    background: #4f7cff;
+    transform: scaleX(0);
+    transition: 0.3s;
+}
+
+nav a:hover::after {
+    transform: scaleX(1);
+}
