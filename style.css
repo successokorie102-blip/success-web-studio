@@ -903,3 +903,11 @@ header .button {
         transform: translateY(0);
     }
 }
+.logo {
+    transition: 0.3s;
+}
+
+.logo:hover {
+    letter-spacing: 4px;
+    transform: scale(1.03);
+}
