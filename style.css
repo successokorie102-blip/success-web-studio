@@ -790,3 +790,18 @@ nav a:hover {
     margin: 8px auto 0;
     border-radius: 5px;
 }
+#contact h2 {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+#contact h2::after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #4f7cff;
+    margin: 8px auto 0;
+    border-radius: 5px;
+}
