@@ -666,3 +666,7 @@ nav a:hover {
 #work .project-card {
     vertical-align: top;
 }
+#work .featured {
+    background: #4f7cff;
+    box-shadow: 0 4px 10px rgba(79, 124, 255, 0.25);
+}
