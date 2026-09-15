@@ -620,3 +620,10 @@ nav a:hover {
         font-size: 13px;
     }
 }
+.project-card {
+    border: 1px solid #e5e7eb;
+}
+
+.project-card:hover {
+    border-color: #4f7cff;
+}
