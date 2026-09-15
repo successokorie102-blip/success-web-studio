@@ -580,3 +580,15 @@ nav a {
 .project-card p strong {
     color: #4f7cff;
 }
+#why-me p {
+    background: #f5f7fb;
+    padding: 14px 18px;
+    border-radius: 8px;
+    margin: 12px 0;
+    transition: 0.3s;
+}
+
+#why-me p:hover {
+    transform: translateX(5px);
+    background: #e5e7eb;
+}
