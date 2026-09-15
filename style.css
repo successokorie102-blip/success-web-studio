@@ -880,3 +880,26 @@ nav a::after {
 nav a:hover::after {
     transform: scaleX(1);
 }
+header h1 {
+    animation: fadeUp 0.8s ease;
+}
+
+header p {
+    animation: fadeUp 1s ease;
+}
+
+header .button {
+    animation: fadeUp 1.2s ease;
+}
+
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
