@@ -835,3 +835,29 @@ nav a:hover {
     margin: 8px auto 0;
     border-radius: 5px;
 }
+.service-card {
+    position: relative;
+    overflow: hidden;
+}
+
+.service-card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: #4f7cff;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: 0.3s;
+}
+
+.service-card:hover::before {
+    transform: scaleX(1);
+}
+
+.service-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.12);
+}
