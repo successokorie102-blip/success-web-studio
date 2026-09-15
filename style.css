@@ -592,3 +592,13 @@ nav a {
     transform: translateX(5px);
     background: #e5e7eb;
 }
+#contact .button {
+    min-width: 150px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+#contact .button:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.2);
+}
