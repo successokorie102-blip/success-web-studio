@@ -577,3 +577,6 @@ section {
 nav a {
     font-size: 15px;
 }
+.project-card p strong {
+    color: #4f7cff;
+}
