@@ -725,3 +725,13 @@ nav a:hover {
 #work .project-card:hover::before {
     transform: scaleX(1);
 }
+#skills p {
+    border: 1px solid #e5e7eb;
+    transition: 0.3s;
+}
+
+#skills p:hover {
+    transform: translateY(-5px) scale(1.03);
+    border-color: #4f7cff;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+}
