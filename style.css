@@ -663,3 +663,6 @@ nav a:hover {
     margin-bottom: 30px;
     letter-spacing: 1px;
 }
+#work .project-card {
+    vertical-align: top;
+}
