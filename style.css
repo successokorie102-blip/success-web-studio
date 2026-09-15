@@ -694,3 +694,10 @@ nav a:hover {
     margin-left: auto;
     margin-right: auto;
 }
+#work .project-card {
+    min-height: 360px;
+}
+
+#work .project-card .button {
+    margin-top: 10px;
+}
