@@ -685,3 +685,12 @@ nav a:hover {
     border-radius: 15px;
     margin-top: 25px;
 }
+#work .project-card {
+    text-align: center;
+}
+
+#work .project-card p {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
