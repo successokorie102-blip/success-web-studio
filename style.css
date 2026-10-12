@@ -1160,3 +1160,185 @@ nav .logo {
         padding: 0 4px;
     }
 }
+
+/* ===== FUTURISTIC SUCCESS WEB STUDIO HERO ===== */
+
+body {
+    background: #07111f;
+}
+
+/* Subtle futuristic grid */
+header {
+    position: relative;
+    overflow: hidden;
+    isolation: isolate;
+    padding: 70px 20px 65px;
+    background-color: #06111f;
+    background-image:
+        linear-gradient(rgba(27, 226, 245, 0.055) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(27, 226, 245, 0.055) 1px, transparent 1px);
+    background-size: 48px 48px;
+    border-bottom: 1px solid rgba(39, 226, 245, 0.18);
+}
+
+header > p:first-child {
+    font-size: 16px;
+    font-weight: 900;
+    letter-spacing: 3px;
+    line-height: 1.5;
+    margin: 0 auto 22px;
+    color: #ffffff;
+}
+
+header .availability {
+    display: inline-block;
+    padding: 10px 16px;
+    margin-bottom: 18px;
+    border: 1px solid rgba(35, 229, 247, 0.5);
+    border-radius: 30px;
+    background: rgba(16, 218, 240, 0.09);
+    color: #35e8ff;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+    animation: none;
+    box-shadow: 0 0 18px rgba(35, 229, 247, 0.08);
+}
+
+header h1 {
+    max-width: 850px;
+    margin: 24px auto;
+    color: #f7fbff;
+    font-size: clamp(36px, 7vw, 60px);
+    font-weight: 900;
+    line-height: 1.12;
+    letter-spacing: -1px;
+    text-wrap: balance;
+}
+
+/* Cyan emphasis using a text effect */
+header h1 {
+    text-shadow: 0 0 24px rgba(35, 229, 247, 0.08);
+}
+
+header > p:nth-of-type(2) {
+    max-width: 580px;
+    margin: 0 auto 28px;
+    color: #b8c7d9;
+    font-size: 16px;
+    line-height: 1.8;
+    opacity: 1;
+}
+
+header .button {
+    min-width: 210px;
+    padding: 17px 24px;
+    border: 1px solid #29e5f5;
+    border-radius: 12px;
+    background: #13ddec;
+    color: #06111f;
+    font-weight: 900;
+    box-shadow: 0 0 28px rgba(19, 221, 236, 0.22);
+}
+
+header .button:hover {
+    background: #65f3ff;
+    color: #06111f;
+    box-shadow: 0 0 35px rgba(19, 221, 236, 0.35);
+}
+
+/* Navigation */
+nav {
+    background: #06111f;
+    border-bottom: 1px solid rgba(39, 226, 245, 0.15);
+}
+
+nav .logo {
+    color: #35e8ff;
+    font-size: 20px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    margin-bottom: 12px;
+}
+
+nav a:hover {
+    color: #35e8ff;
+}
+
+/* Keep the content readable against the dark outer background */
+section {
+    scroll-margin-top: 90px;
+}
+
+#about,
+#work,
+#skills,
+#why-me {
+    background: #ffffff;
+    border-radius: 16px;
+    margin-top: 24px;
+}
+
+#process {
+    background: #eaf0f7;
+    border-radius: 16px;
+    margin-top: 24px;
+}
+
+#contact {
+    background: #06111f;
+    border: 1px solid rgba(39, 226, 245, 0.25);
+    border-radius: 16px;
+}
+
+#contact h2::after {
+    background: #35e8ff;
+}
+
+footer {
+    background: #06111f;
+    border-top: 2px solid #13ddec;
+}
+
+/* Phone layout */
+@media (max-width: 600px) {
+    header {
+        padding: 55px 18px 50px;
+        background-size: 40px 40px;
+    }
+
+    header > p:first-child {
+        font-size: 14px;
+        letter-spacing: 2.5px;
+    }
+
+    header .availability {
+        font-size: 11px;
+        padding: 9px 13px;
+        letter-spacing: 1px;
+    }
+
+    header h1 {
+        max-width: 500px;
+        font-size: clamp(34px, 9vw, 42px);
+        line-height: 1.15;
+        letter-spacing: -0.5px;
+        padding: 0;
+    }
+
+    header > p:nth-of-type(2) {
+        font-size: 14px;
+        line-height: 1.75;
+    }
+
+    header .button {
+        width: 100%;
+        max-width: 420px;
+        padding: 17px 18px;
+    }
+
+    nav .logo {
+        font-size: 17px;
+        letter-spacing: 1.5px;
+    }
+}
