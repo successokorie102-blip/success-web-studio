@@ -1150,3 +1150,13 @@ nav .logo {
         letter-spacing: 1.5px;
     }
 }
+
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 33px;
+        line-height: 1.2;
+        letter-spacing: 0;
+        max-width: 520px;
+        padding: 0 4px;
+    }
+}
