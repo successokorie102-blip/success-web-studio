@@ -1342,3 +1342,30 @@ footer {
         letter-spacing: 1.5px;
     }
 }
+
+/* Stronger futuristic hero background */
+
+header {
+    background-color: #06111f;
+    background-image:
+        linear-gradient(rgba(35, 229, 247, 0.09) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(35, 229, 247, 0.09) 1px, transparent 1px),
+        radial-gradient(
+            ellipse at 50% 45%,
+            rgba(0, 210, 235, 0.13),
+            transparent 65%
+        );
+    background-size: 36px 36px, 36px 36px, 100% 100%;
+}
+
+header .button {
+    background: #13ddec;
+    color: #06111f;
+    border: 1px solid #35e8ff;
+    box-shadow: 0 0 28px rgba(19, 221, 236, 0.3);
+}
+
+header .button:hover {
+    background: #65f3ff;
+    color: #06111f;
+}
