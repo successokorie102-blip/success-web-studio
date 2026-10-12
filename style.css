@@ -1061,3 +1061,30 @@ header h1 {
         padding: 9px 14px;
     }
 }
+/* Premium mobile hero improvements */
+
+.logo {
+    font-size: 25px;
+    font-weight: 900;
+    letter-spacing: 3px;
+    line-height: 1.5;
+}
+
+.availability {
+    font-size: 13px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    padding: 10px 16px;
+}
+
+@media (max-width: 600px) {
+    .logo {
+        font-size: 22px;
+        letter-spacing: 2px;
+    }
+
+    .availability {
+        font-size: 12px;
+        padding: 9px 14px;
+    }
+}
