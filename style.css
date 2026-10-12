@@ -958,3 +958,16 @@ section {
     border-radius: 12px;
     margin-bottom: 18px;
 }
+#work .project-image {
+    height: 230px;
+    object-fit: cover;
+    object-position: top;
+    border: 1px solid #e5e7eb;
+    box-shadow: 0 4px 12px rgba(23, 32, 51, 0.08);
+}
+
+@media (max-width: 600px) {
+    #work .project-image {
+        height: 210px;
+    }
+}
