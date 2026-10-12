@@ -688,7 +688,8 @@ footer p:last-child {
     }
 
     .project-image {
-        height: 200px;
+    height: auto;
+    object-fit: contain;
     }
 
     .project-card h3 {
