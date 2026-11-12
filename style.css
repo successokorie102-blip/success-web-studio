@@ -596,3 +596,30 @@ img {
     height: 230px;
   }
 }
+
+/* PROFESSIONAL SOCIAL FOOTER */
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin: 22px 0;
+}
+
+.social-links a {
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 700;
+  transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #6c91f0;
+}
+
+.copyright {
+  border-top: 1px solid rgba(255,255,255,0.12);
+  padding-top: 20px;
+  margin-top: 20px !important;
+}
